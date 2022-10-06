@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="stars">
+            <h1>how did we do?</h1>
+        <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+
+        
+            <div class="btn">
+              <button id="btn" type="submit">Post</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script>
+        const btn = document.getElementById("btn");
+        const widget = document.querySelector(".stars");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+          widget.style.display = "none";
+          post.style.display = "block";
+          editBtn.onclick = ()=>{
+            widget.style.display = "block";
+           
+          }
+          return false;
+        }
+      </script>
+  
+</body>
+</html>
